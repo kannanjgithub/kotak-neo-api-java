@@ -17,11 +17,11 @@ public class Demo {
     public static void main(String[] args) {
         // Replace with actual credentials
         String environment = "uat";
-        String accessToken = "42cbf1f8-e609-4015-8d43-6347bf77550b";
-        String mobileNumber = "+918971114094";
-        String ucc = "YN0NL";
-        String totp = "051301"; // Current TOTP from app
-        String mpin = "169240";
+        String accessToken = "put the access token here";
+        String mobileNumber = "";
+        String ucc = "unique client code";
+        String totp = ""; // Current TOTP from app
+        String mpin = "numeric mpin";
 
         NeoAPI api = new NeoAPI(environment, accessToken, "", "");
 
